@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("../80-807675_jungle-image-jungle-leaves-border-png.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #f7f7f7;
+}
+
+
+.box {
+    border: 3px solid goldenrod;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.container {
+    margin-right: 40%;
+    margin-left: 10%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.textArea {
+    color: goldenrod;
+}
+
+.checkButton {
+    color: black;
+    background-color: goldenrod;
+    border-radius: 5px;
+    border-color: goldenrod;
+}
+
+.checkButton:hover {
+    color: white;
+}
+
+.finishButton {
+    color: black;
+    background-color: #6E0069;
+    border-radius: 5px;
+    border-color: #6E0069;
+}
+
+.finishButton:hover{
+    color: white;
+}

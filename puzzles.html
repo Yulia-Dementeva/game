@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Games. Puzzles</title>
+    <link rel="stylesheet" href="css/puzzles.css">
+
+
+</head>
+<body>
+
+<div class="container">
+    <div>
+        <h1>
+            Загадки
+        </h1>
+    </div>
+
+    <div class="box" id="box">
+        <div id="readyToPlay">
+            <p id="textArea" class="textArea">Попробуй угадать!</p>
+            <p id="puzzleText"></p>
+            <input type="text" id="answer">
+            <br>
+            <br>
+            <button onClick="getAnswer(answer)" class="checkButton">check answer</button>
+            <button onClick="finishGame()" class="finishButton">finish game</button>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+<script src="js/puzzles.js"></script>
+
+</body>
+</html>

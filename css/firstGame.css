@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("../80-807675_jungle-image-jungle-leaves-border-png.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #f7f7f7;
+}
+
+
+
+table {
+    border: 3px solid;
+    border-collapse: collapse;
+    align-items: center;
+    margin: auto;
+
+
+}
+
+td, tr {
+    width: 35px;
+    height: 35px;
+    border: 3px solid goldenrod;
+    background-color: white;
+
+
+
+}
+
+td {
+    text-align: center;
+
+}
+
+td:hover {
+    background-color: goldenrod;
+}
+
+.red {
+    color: red;
+    background-color: #6E0069;
+}
+
+.green {
+    color: green;
+    background-color: green;
+}
+
+.userAnswer {
+    text-decoration: none;
+    color: black;
+}
+
+.center {
+    text-align: center;
+    margin-right: 30%;
+    margin-top: 15%;
+
+}

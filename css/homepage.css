@@ -1,0 +1,42 @@
+body {
+    background-image: url("../80-807675_jungle-image-jungle-leaves-border-png.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #f7f7f7;
+}
+
+div .name {
+    margin-top: 15%;
+    margin-left: 30%;
+    color: black;
+
+}
+
+
+div .levels {
+    margin-left: 10%;
+    margin-right: 30%;
+    padding: 20px;
+    padding-bottom: 110px;
+    border: solid 3px goldenrod;
+    border-radius: 30px;
+    text-align: center;
+    background-color: white;
+
+}
+
+div .levels-name {
+    word-spacing: 120px;
+
+
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+    word-spacing: normal;
+    font-size: 20px;
+
+}
+

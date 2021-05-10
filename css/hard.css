@@ -1,0 +1,49 @@
+body {
+    background-image: url("../80-807675_jungle-image-jungle-leaves-border-png.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-top: 15%;
+    margin-right: 40%;
+    margin-left: 10%;
+}
+
+.area {
+    border: 3px solid goldenrod;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.task {
+    font-size: 20px;
+}
+
+.startGameButton, .checkButton {
+    background: darkgoldenrod;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.front {
+    display: block;
+    padding: 8px 8px;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: goldenrod;
+    color: #f7f7f7;
+    transform: translateY(-6px);
+}
+
+.startGameButton:active .front {
+    transform: translateY(-2px);
+}
+
+.checkButton:active .front {
+    transform: translateY(-2px);
+}

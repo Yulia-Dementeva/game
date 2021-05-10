@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Games. Easy level</title>
+    <link rel="stylesheet" href="css/firstGame.css">
+</head>
+<body>
+
+
+<div class="center">
+    <h1>Игра "Угадайка"</h1>
+    <br>
+    <div class="box">
+        <p id="info">Мы загадали число от 0 до 100 <br>Сможете угадать? </p>
+
+        <br>
+
+        <div>
+            <table>
+                <tr class="gameTable">
+                    <td onclick="guess(1)"><a href="#" id="userAnswer" class="userAnswer">1</a></td>
+                    <td onclick="guess(2)"><a href="#" id="userAnswer" class="userAnswer">2</a></td>
+                    <td onclick="guess(3)"><a href="#" id="userAnswer" class="userAnswer">3</a></td>
+                    <td onclick="guess(4)"><a href="#" id="userAnswer" class="userAnswer">4</a></td>
+                    <td onclick="guess(5)"><a href="#" id="userAnswer" class="userAnswer">5</a></td>
+                    <td onclick="guess(6)"><a href="#" id="userAnswer" class="userAnswer">6</a></td>
+                    <td onclick="guess(7)"><a href="#" id="userAnswer" class="userAnswer">7</a></td>
+                    <td onclick="guess(8)"><a href="#" id="userAnswer" class="userAnswer">8</a></td>
+                    <td onclick="guess(9)"><a href="#" id="userAnswer" class="userAnswer">9</a></td>
+                    <td onclick="guess(10)"><a href="#" id="userAnswer" class="userAnswer">10</a></td>
+                    <td onclick="guess(11)"><a href="#" id="userAnswer" class="userAnswer">11</a></td>
+                    <td onclick="guess(12)"><a href="#" id="userAnswer" class="userAnswer">12</a></td>
+                    <td onclick="guess(13)"><a href="#" id="userAnswer" class="userAnswer">13</a></td>
+                    <td onclick="guess(14)"><a href="#" id="userAnswer" class="userAnswer">14</a></td>
+                    <td onclick="guess(15)"><a href="#" id="userAnswer" class="userAnswer">15</a></td>
+                    <td onclick="guess(16)"><a href="#" id="userAnswer" class="userAnswer">16</a></td>
+                    <td onclick="guess(17)"><a href="#" id="userAnswer" class="userAnswer">17</a></td>
+                    <td onclick="guess(18)"><a href="#" id="userAnswer" class="userAnswer">18</a></td>
+                    <td onclick="guess(19)"><a href="#" id="userAnswer" class="userAnswer">19</a></td>
+                    <td onclick="guess(20)"><a href="#" id="userAnswer" class="userAnswer">20</a></td>
+                </tr>
+                <tr class="gameTable">
+                    <td onclick="guess(21)"><a href="#" id="userAnswer" class="userAnswer">21</a></td>
+                    <td onclick="guess(22)"><a href="#" id="userAnswer" class="userAnswer">22</a></td>
+                    <td onclick="guess(23)"><a href="#" id="userAnswer" class="userAnswer">23</a></td>
+                    <td onclick="guess(24)"><a href="#" id="userAnswer" class="userAnswer">24</a></td>
+                    <td onclick="guess(25)"><a href="#" id="userAnswer" class="userAnswer">25</a></td>
+                    <td onclick="guess(26)"><a href="#" id="userAnswer" class="userAnswer">26</a></td>
+                    <td onclick="guess(27)"><a href="#" id="userAnswer" class="userAnswer">27</a></td>
+                    <td onclick="guess(28)"><a href="#" id="userAnswer" class="userAnswer">28</a></td>
+                    <td onclick="guess(29)"><a href="#" id="userAnswer" class="userAnswer">29</a></td>
+                    <td onclick="guess(30)"><a href="#" id="userAnswer" class="userAnswer">30</a></td>
+                    <td onclick="guess(31)"><a href="#" id="userAnswer" class="userAnswer">31</a></td>
+                    <td onclick="guess(32)"><a href="#" id="userAnswer" class="userAnswer">32</a></td>
+                    <td onclick="guess(33)"><a href="#" id="userAnswer" class="userAnswer">33</a></td>
+                    <td onclick="guess(34)"><a href="#" id="userAnswer" class="userAnswer">34</a></td>
+                    <td onclick="guess(35)"><a href="#" id="userAnswer" class="userAnswer">35</a></td>
+                    <td onclick="guess(36)"><a href="#" id="userAnswer" class="userAnswer">36</a></td>
+                    <td onclick="guess(37)"><a href="#" id="userAnswer" class="userAnswer">37</a></td>
+                    <td onclick="guess(38)"><a href="#" id="userAnswer" class="userAnswer">38</a></td>
+                    <td onclick="guess(39)"><a href="#" id="userAnswer" class="userAnswer">39</a></td>
+                    <td onclick="guess(40)"><a href="#" id="userAnswer" class="userAnswer">40</a></td>
+                </tr>
+                <tr class="gameTable">
+                    <td onclick="guess(41)"><a href="#" id="userAnswer" class="userAnswer">41</a></td>
+                    <td onclick="guess(42)"><a href="#" id="userAnswer" class="userAnswer">42</a></td>
+                    <td onclick="guess(43)"><a href="#" id="userAnswer" class="userAnswer">43</a></td>
+                    <td onclick="guess(44)"><a href="#" id="userAnswer" class="userAnswer">44</a></td>
+                    <td onclick="guess(45)"><a href="#" id="userAnswer" class="userAnswer">45</a></td>
+                    <td onclick="guess(46)"><a href="#" id="userAnswer" class="userAnswer">46</a></td>
+                    <td onclick="guess(47)"><a href="#" id="userAnswer" class="userAnswer">47</a></td>
+                    <td onclick="guess(48)"><a href="#" id="userAnswer" class="userAnswer">48</a></td>
+                    <td onclick="guess(49)"><a href="#" id="userAnswer" class="userAnswer">49</a></td>
+                    <td onclick="guess(50)"><a href="#" id="userAnswer" class="userAnswer">50</a></td>
+                    <td onclick="guess(51)"><a href="#" id="userAnswer" class="userAnswer">51</a></td>
+                    <td onclick="guess(52)"><a href="#" id="userAnswer" class="userAnswer">52</a></td>
+                    <td onclick="guess(53)"><a href="#" id="userAnswer" class="userAnswer">53</a></td>
+                    <td onclick="guess(54)"><a href="#" id="userAnswer" class="userAnswer">54</a></td>
+                    <td onclick="guess(55)"><a href="#" id="userAnswer" class="userAnswer">55</a></td>
+                    <td onclick="guess(56)"><a href="#" id="userAnswer" class="userAnswer">56</a></td>
+                    <td onclick="guess(57)"><a href="#" id="userAnswer" class="userAnswer">57</a></td>
+                    <td onclick="guess(58)"><a href="#" id="userAnswer" class="userAnswer">58</a></td>
+                    <td onclick="guess(59)"><a href="#" id="userAnswer" class="userAnswer">59</a></td>
+                    <td onclick="guess(60)"><a href="#" id="userAnswer" class="userAnswer">60</a></td>
+                </tr>
+                <tr class="gameTable">
+                    <td onclick="guess(61)"><a href="#" id="userAnswer" class="userAnswer">61</a></td>
+                    <td onclick="guess(62)"><a href="#" id="userAnswer" class="userAnswer">62</a></td>
+                    <td onclick="guess(63)"><a href="#" id="userAnswer" class="userAnswer">63</a></td>
+                    <td onclick="guess(64)"><a href="#" id="userAnswer" class="userAnswer">64</a></td>
+                    <td onclick="guess(65)"><a href="#" id="userAnswer" class="userAnswer">65</a></td>
+                    <td onclick="guess(66)"><a href="#" id="userAnswer" class="userAnswer">66</a></td>
+                    <td onclick="guess(67)"><a href="#" id="userAnswer" class="userAnswer">67</a></td>
+                    <td onclick="guess(68)"><a href="#" id="userAnswer" class="userAnswer">68</a></td>
+                    <td onclick="guess(69)"><a href="#" id="userAnswer" class="userAnswer">69</a></td>
+                    <td onclick="guess(70)"><a href="#" id="userAnswer" class="userAnswer">70</a></td>
+                    <td onclick="guess(71)"><a href="#" id="userAnswer" class="userAnswer">71</a></td>
+                    <td onclick="guess(72)"><a href="#" id="userAnswer" class="userAnswer">72</a></td>
+                    <td onclick="guess(73)"><a href="#" id="userAnswer" class="userAnswer">73</a></td>
+                    <td onclick="guess(74)"><a href="#" id="userAnswer" class="userAnswer">74</a></td>
+                    <td onclick="guess(75)"><a href="#" id="userAnswer" class="userAnswer">75</a></td>
+                    <td onclick="guess(76)"><a href="#" id="userAnswer" class="userAnswer">76</a></td>
+                    <td onclick="guess(77)"><a href="#" id="userAnswer" class="userAnswer">77</a></td>
+                    <td onclick="guess(78)"><a href="#" id="userAnswer" class="userAnswer">78</a></td>
+                    <td onclick="guess(79)"><a href="#" id="userAnswer" class="userAnswer">79</a></td>
+                    <td onclick="guess(80)"><a href="#" id="userAnswer" class="userAnswer">80</a></td>
+                </tr>
+                <tr class="gameTable">
+                    <td onclick="guess(81)"><a href="#" id="userAnswer"  class="userAnswer">81</a></td>
+                    <td onclick="guess(82)"><a href="#" id="userAnswer" class="userAnswer">82</a></td>
+                    <td onclick="guess(83)"><a href="#" id="userAnswer" class="userAnswer">83</a></td>
+                    <td onclick="guess(84)"><a href="#" id="userAnswer" class="userAnswer">84</a></td>
+                    <td onclick="guess(85)"><a href="#" id="userAnswer" class="userAnswer">85</a></td>
+                    <td onclick="guess(86)"><a href="#" id="userAnswer" class="userAnswer">86</a></td>
+                    <td onclick="guess(87)"><a href="#" id="userAnswer" class="userAnswer">87</a></td>
+                    <td onclick="guess(88)"><a href="#" id="userAnswer" class="userAnswer">88</a></td>
+                    <td onclick="guess(89)"><a href="#" id="userAnswer" class="userAnswer">89</a></td>
+                    <td onclick="guess(90)"><a href="#" id="userAnswer" class="userAnswer">90</a></td>
+                    <td onclick="guess(91)"><a href="#" id="userAnswer" class="userAnswer">91</a></td>
+                    <td onclick="guess(92)"><a href="#" id="userAnswer" class="userAnswer">92</a></td>
+                    <td onclick="guess(93)"><a href="#" id="userAnswer" class="userAnswer">93</a></td>
+                    <td onclick="guess(94)"><a href="#" id="userAnswer" class="userAnswer">94</a></td>
+                    <td onclick="guess(95)"><a href="#" id="userAnswer" class="userAnswer">95</a></td>
+                    <td onclick="guess(96)"><a href="#" id="userAnswer" class="userAnswer">96</a></td>
+                    <td onclick="guess(97)"><a href="#" id="userAnswer" class="userAnswer">97</a></td>
+                    <td onclick="guess(98)"><a href="#" id="userAnswer" class="userAnswer">98</a></td>
+                    <td onclick="guess(99)"><a href="#" id="userAnswer" class="userAnswer">99</a></td>
+                    <td onclick="guess(100)"><a href="#" id="userAnswer" class="userAnswer">100</a></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="js/firstGame.js"></script>
+</body>
+</html>
