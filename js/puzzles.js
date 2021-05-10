@@ -52,7 +52,8 @@ function clear(id) {
 
 function finishGame() {
     console.log('Угадано загадок: ' + score)
-    document.getElementById('box').innerHTML = `Благодарим за игру! <br/> Ответ на последнюю загадку: ${answer[0]} <br/> Угадано загадок: ${score} <br/>
+    document.getElementById('box').innerHTML = `Благодарим за игру! <br/> Ответ на последнюю загадку: ${answer[0]} <br/> Угадано загадок: ${score} <br/> 
+<img class="gif" src="https://i.pinimg.com/originals/8e/31/25/8e3125d9854de3850f9da66282705dce.gif">
          `
 }
 

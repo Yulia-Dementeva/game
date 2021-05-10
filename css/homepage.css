@@ -7,7 +7,7 @@ body {
 
 div .name {
     margin-top: 15%;
-    margin-left: 30%;
+    margin-left: 25%;
     color: black;
 
 }
@@ -15,9 +15,9 @@ div .name {
 
 div .levels {
     margin-left: 10%;
-    margin-right: 30%;
-    padding: 20px;
-    padding-bottom: 110px;
+    margin-right: 40%;
+    padding: 15px;
+    padding-bottom: 50px;
     border: solid 3px goldenrod;
     border-radius: 30px;
     text-align: center;
@@ -25,10 +25,27 @@ div .levels {
 
 }
 
-div .levels-name {
-    word-spacing: 120px;
+.levels-name {
+    text-align: center;
+}
 
+table {
+    align-items: center;
+}
 
+td, tr {
+    width: 200px;
+    height: 35px;
+    border: 0px;
+
+}
+
+td {
+    text-align: center;
+}
+
+td:hover {
+    background-image: url("https://img1.picmix.com/output/stamp/normal/2/8/5/2/1742582_4e782.gif");
 }
 
 
@@ -38,5 +55,17 @@ div .levels-name {
     word-spacing: normal;
     font-size: 20px;
 
+}
+
+.pic {
+    width: 90px;
+}
+
+.link:hover {
+
+}
+
+.gif {
+    width: 100px;
 }
 

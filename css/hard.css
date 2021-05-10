@@ -38,6 +38,7 @@ body {
     background: goldenrod;
     color: #f7f7f7;
     transform: translateY(-6px);
+    text-decoration: none;
 }
 
 .startGameButton:active .front {
@@ -46,4 +47,8 @@ body {
 
 .checkButton:active .front {
     transform: translateY(-2px);
+}
+
+.gif {
+    width: 100px;
 }

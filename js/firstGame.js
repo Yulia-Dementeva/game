@@ -1,9 +1,6 @@
 let answer = Math.floor(Math.random() * 100);
 let tryCount = 0;
 
-
-console.log(answer)
-
 function write(text) {
     document.getElementById("info").innerHTML = text;
 }
@@ -28,6 +25,7 @@ function guess(selectedAnswer) {
     console.log(userAnswer)
     if (userAnswer == answer) {
         write(`Поздравляю, Вы угадали! <br/>Количество попыток: ${tryCount}`);
+        document.getElementById('gif').outerHTML = '<img class="gif" src="https://static.tildacdn.com/tild6237-6230-4163-b938-623839363536/giphy_1.gif">'
         paintNumber(userAnswer)
 
     } else if (userAnswer > answer) {

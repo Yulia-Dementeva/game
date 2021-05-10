@@ -10,7 +10,7 @@ body {
 }
 
 
-.box {
+.area {
     border: 3px solid goldenrod;
     padding: 2%;
     background-color: white;
@@ -29,24 +29,64 @@ body {
     color: goldenrod;
 }
 
-.checkButton {
-    color: black;
-    background-color: goldenrod;
-    border-radius: 5px;
-    border-color: goldenrod;
+
+.puzzleText {
+    font-size: 20px;
 }
 
-.checkButton:hover {
-    color: white;
+.finishButton, .checkButton {
+    background: #6E0069;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
 }
 
-.finishButton {
-    color: black;
-    background-color: #6E0069;
-    border-radius: 5px;
-    border-color: #6E0069;
+.startGameButton {
+    background: darkgoldenrod;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
 }
 
-.finishButton:hover{
-    color: white;
+.front1 {
+    display: block;
+    padding: 8px 8px;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: darkmagenta;
+    color: #f7f7f7;
+    transform: translateY(-6px);
+    text-decoration: none;
+}
+
+
+.front {
+    display: block;
+    padding: 8px 8px;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: goldenrod;
+    color: #f7f7f7;
+    transform: translateY(-6px);
+    text-decoration: none;
+}
+
+.finishButton:active .front {
+    transform: translateY(-2px);
+}
+
+.checkButton:active .front {
+    transform: translateY(-2px);
+}
+
+.startGameButton:active .front {
+    transform: translateY(-2px);
+}
+
+.gif {
+    width: 100px;
 }

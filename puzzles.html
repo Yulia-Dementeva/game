@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JavaScript Games. Puzzles</title>
+    <title>JavaScript Games. Загадки</title>
     <link rel="stylesheet" href="css/puzzles.css">
 
 
@@ -18,26 +18,28 @@
             Загадки
         </h1>
     </div>
-
-    <div class="box" id="box">
-        <div id="readyToPlay">
-            <p id="textArea" class="textArea">Попробуй угадать!</p>
-            <p id="puzzleText"></p>
-            <input type="text" id="answer">
-            <br>
-            <br>
-            <button onClick="getAnswer(answer)" class="checkButton">check answer</button>
-            <button onClick="finishGame()" class="finishButton">finish game</button>
-
+    <div class="area">
+        <div class="box" id="box">
+            <div id="readyToPlay">
+                <p id="textArea" class="textArea">Попробуй угадать!</p>
+                <p id="puzzleText" class="puzzleText"></p>
+                <input type="text" id="answer">
+                <br>
+                <br>
+                <button onClick="getAnswer(answer)" class="checkButton"><a class="front1">Проверить ответ</a></button>
+                <button onClick="finishGame()" class="finishButton"><a class="front1">Закончить игру</a></button>
+                <br>
+            </div>
         </div>
 
-
+        <br>
+        <button id="startGameButton" class="startGameButton">
+            <a href="index.html" class="front">
+                На главную
+            </a>
+        </button>
     </div>
-
 </div>
-
-
-
 
 
 <script src="js/puzzles.js"></script>

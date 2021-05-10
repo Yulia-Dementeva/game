@@ -32,7 +32,7 @@ function finishGame() {
         result = `Вы набрали 0 очков. Как хорошо, что в эту игру можно играть бесконечно, так что играй и прокачивайся :)`
     }
     document.getElementById('task').innerHTML = result
-    document.getElementById('newArea').outerHTML = '<button>ok</button>'
+    document.getElementById('newArea').outerHTML = '<img class="gif" src="https://99px.ru/sstorage/86/2017/09/image_860509172103159030368.gif">'
 }
 
 function showTask() {
